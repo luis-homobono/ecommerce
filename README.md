@@ -18,3 +18,9 @@ Last, run the app
 ```
 python manage.py runserver 0.0.0.0:5000
 ```
+
+If you change the database you need make migrations again
+```
+python manage.py makemigrations
+python manage.py migrate
+```
